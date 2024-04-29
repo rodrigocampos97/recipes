@@ -20,13 +20,11 @@ $rules = [
     'cast_spaces' => ['space' => 'none'],
     'no_unused_imports' => true,
     'combine_consecutive_issets' => false,
-    'single_line_comment_style' => ['remove_empty' => true],
     'combine_consecutive_unsets' => false,
     'combine_nested_dirname' => false,
     'comment_to_phpdoc' => false,
     'compact_nullable_typehint' => false,
     'concat_space' => ['spacing' => 'one'],
-    'no_singleline_whitespace_before_semicolons' => true,
     'constant_case' => [
         'case' => 'lower',
     ],
