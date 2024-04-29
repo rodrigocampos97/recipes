@@ -44,7 +44,6 @@ class Alert extends \yii\bootstrap5\Widget
      */
     public $closeButton = [];
 
-
     /**
      * {@inheritdoc}
      */
@@ -56,7 +55,7 @@ class Alert extends \yii\bootstrap5\Widget
         foreach (array_keys($this->alertTypes) as $type) {
             $flash = $session->getFlash($type);
 
-            foreach ((array) $flash as $i => $message) {
+            foreach ((array)$flash as $i => $message) {
                 echo \yii\bootstrap5\Alert::widget([
                     'body' => $message,
                     'closeButton' => $this->closeButton,
